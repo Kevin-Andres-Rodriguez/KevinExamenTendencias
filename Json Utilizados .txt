@@ -1,0 +1,38 @@
+Json Utilizados 
+RESPUESTA DE JSON DE UN GETALL: http://localhost:7002/api/sponsor
+[
+  {
+    "id_sponsor": 1,
+    "nombre": "VansPrueba",
+    "numero": 991937248,
+    "activo": true,
+    "fecha_sponsor": "1999-04-30",
+    "competitor_skatersEntityKevin": null
+  },
+  {
+    "id_sponsor": 2,
+    "nombre": "VansPrueba",
+    "numero": 991937248,
+    "activo": true,
+    "fecha_sponsor": "1999-04-30",
+    "competitor_skatersEntityKevin": null
+  },
+  {
+    "id_sponsor": 3,
+    "nombre": "VansPrueba",
+    "numero": 991937248,
+    "activo": true,
+    "fecha_sponsor": "1999-04-30",
+    "competitor_skatersEntityKevin": null
+  }
+]
+JSON PARA GUARDAR: http://localhost:7002/api/sponsor
+{
+  "nombre": "Vans1",
+  "numero": 991937248,
+  "activo":"True",
+  "fecha_sponsor": "1999-05-01"
+  
+}
+JSON PARA ELIMINAR POR NOMBRE: http://localhost:7002/api/sponsor/marca/Vans1
+
